@@ -11,9 +11,6 @@
 
 <nav>
 <a href="index.html">Home</a>
-
-35
-
 <a href="about.html">About Us</a>
 <a href="courses.html">Courses</a>
 <a href="gallery.html">Gallery</a>
@@ -37,10 +34,7 @@
 </div>
 
 <form id="feedbackForm" onsubmit="handleFeedback(event)">
-
-36
-
-<label>Name:</label>
+  <label>Name:</label>
 <input type="text" id="userName" required>
 
 <label>Comments:</label>
@@ -64,9 +58,6 @@ const ratingValue = document.getElementById("ratingValue");
 stars.forEach((star, index) => {
 star.addEventListener("click", () => {
 ratingValue.value = star.dataset.value;
-
-37
-
 stars.forEach((s, i) => {
 s.classList.toggle("selected", i <= index);
 });
@@ -89,9 +80,6 @@ if (!ratingValue.value) {
 alert("Please select a rating before submitting.");
 return;
 }
-
-38
-
 const userComment =
 document.getElementById("userCommentInput").value;
 const commentBox = document.getElementById("user-comment");
@@ -111,4 +99,5 @@ stars.forEach(s => s.classList.remove("selected"));
 }
 </script>
 </body>
+
 </html>
