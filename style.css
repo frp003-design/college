@@ -419,4 +419,38 @@ color: #1b5e20;
 background: #e3f2fd;
 border: 1px solid #2196f3;
 color: #0d47a1;
+
+}
+
+/* HOME PAGE IMAGE */
+.home-image {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.home-image img {
+  width: 85%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+.site-footer {
+  background: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.site-footer a {
+  color: #a5d6a7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
